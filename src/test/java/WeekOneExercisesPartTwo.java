@@ -10,7 +10,7 @@ public class WeekOneExercisesPartTwo {
     // TODO Response: Why would you never refactor if you had a failing test?
 
     @Test
-    //@Disabled
+    @Disabled
     public void bloodAlcoholLevelForAMale() {
         char gender = 'M';
         int weightInPounds = 185;
@@ -24,7 +24,7 @@ public class WeekOneExercisesPartTwo {
     }
 
     @Test
-    @Disabled
+    //@Disabled
     public void bloodAlcoholLevelForAFemale() {
         char gender = 'F';
         int weightInPounds = 135;
