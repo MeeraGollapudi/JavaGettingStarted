@@ -19,7 +19,7 @@ public class WeekOneExercisesPartOne {
         int numberOfEightSlicePizzas = 1;
 
         int actualSlicesPerPerson = divideUpEightSlicePizzasEvenly(numberOfEightSlicePizzas, numberOfPeople);
-
+        // Updated return statement in the divideUpEightSlicePizzasEvenly method. Did not make any changes in this method.
         assertEquals(1, actualSlicesPerPerson);
     }
 
@@ -47,11 +47,11 @@ public class WeekOneExercisesPartOne {
     }
 
     private int divideUpEightSlicePizzasEvenly(int numberOfPizzas, int numberOfPeople) {
-        return 0;
+        return ((numberOfPizzas * 8)  /  numberOfPeople );
     }
 
     private int determineLeftoverSlicesOfPizza(int numberOfPizzas, int numberOfPeople) {
-        return 0;
+        return ((numberOfPizzas * 8)  % numberOfPeople );
     }
 
     @Test
@@ -79,6 +79,7 @@ public class WeekOneExercisesPartOne {
      * @return
      */
     private float calcSimpleInterest(float principal, float percentInterestRate, float numberOfYears) {
-        return 0;
+
+        return (principal * (1 + (numberOfYears * percentInterestRate) / 100));
     }
 }
