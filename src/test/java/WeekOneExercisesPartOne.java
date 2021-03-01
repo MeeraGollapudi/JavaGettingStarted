@@ -13,6 +13,7 @@ public class WeekOneExercisesPartOne {
     final double ROUND_TO_NEAREST_PENNY = .001;
 
     @Test
+    @Disabled
     // TODO Code: What is the least amount of code we need to make this test pass?
     public void numberOfWholeSlicesForOnePizzaAndEightPeople() {
         int numberOfPeople = 8;
@@ -24,7 +25,7 @@ public class WeekOneExercisesPartOne {
     }
 
     @Test
-    @Disabled
+
     public void numberOfWholeSlicesFromOnePizzaAndEightPeople() {
         int numberOfPeople = 4;
         int numberOfEightSlicePizzas = 2;
