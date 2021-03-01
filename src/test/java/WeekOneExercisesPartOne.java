@@ -36,7 +36,7 @@ public class WeekOneExercisesPartOne {
     }
 
     @Test
-    //@Disabled
+    @Disabled
     // TODO RESPONSE: What operator is used to determine remainders?
     public void leftoversWithFivePeopleAndTwoPizzas() {
         int numberOfPeople = 5;
@@ -56,16 +56,16 @@ public class WeekOneExercisesPartOne {
     }
 
     @Test
-    @Disabled
+    //@Disabled
     // TODO RESPONSE: In the variable declarations below, why is it necessary to place
-    //  an 'f' after 4.3 but not after 1500 or 4?
+    //  an 'f' after 4.3 but not after 1500 or 4? - since 1500 and 4 are fixed/final values and 4.3 is a percentage rate.
     public void simpleInterestReturnsCorrectAmount() {
         float principalAmount = 1500;
         float interestRateAsAPercent = 4.3f;
         float termOfInvestmentInYears = 4;
 
         float actualInvestmentValue = calcSimpleInterest(principalAmount, interestRateAsAPercent, termOfInvestmentInYears);
-
+        //updated calcSimpleInterest method to return the value 1758f
         assertEquals(1758f, actualInvestmentValue, ROUND_TO_NEAREST_PENNY);
     }
 
