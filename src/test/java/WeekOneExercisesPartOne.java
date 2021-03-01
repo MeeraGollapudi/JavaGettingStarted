@@ -25,7 +25,7 @@ public class WeekOneExercisesPartOne {
     }
 
     @Test
-
+    @Disabled
     public void numberOfWholeSlicesFromOnePizzaAndEightPeople() {
         int numberOfPeople = 4;
         int numberOfEightSlicePizzas = 2;
@@ -36,12 +36,12 @@ public class WeekOneExercisesPartOne {
     }
 
     @Test
-    @Disabled
+    //@Disabled
     // TODO RESPONSE: What operator is used to determine remainders?
     public void leftoversWithFivePeopleAndTwoPizzas() {
         int numberOfPeople = 5;
         int numberOfEightSlicePizzas = 2;
-
+    //updated determineLeftoverSlicesOfPizza method to add the mathematical calculation to return reminder of 1
         int actualLeftoverSlices = determineLeftoverSlicesOfPizza(numberOfEightSlicePizzas, numberOfPeople);
 
         assertEquals(1, actualLeftoverSlices);
