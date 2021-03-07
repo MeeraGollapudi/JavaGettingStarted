@@ -65,7 +65,7 @@ public class WeekTwoExercisePartTwo {
     @Test
     //@Disabled
     public void sendingAnyMultipleOfThreeShouldReturnStringFizz() {
-        // TODO Comment: replace this comment with a brief description of why you made the change you did in FizzBuzz.java
+        // In our assertEquals statement, the expected is a String object "Fizz", if the number is 9.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
 
@@ -78,9 +78,9 @@ public class WeekTwoExercisePartTwo {
     }
 
     @Test
-    @Disabled
+    //@Disabled
     public void sendingAnyMultipleOfFiveOfThreeShouldReturnStringBuzz() {
-        // TODO Comment: replace this comment with a brief description of why you made the change you did in FizzBuzz.java
+        // In our assertEquals statement, the expected is a String object "Buzz", if the number is 25.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
 

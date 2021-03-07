@@ -9,6 +9,8 @@ public class FizzBuzz {
             case 3:
             case 9:
                 return "Fizz";
+            case 25:
+                return "Buzz";
             default:
                 return "";
         }
