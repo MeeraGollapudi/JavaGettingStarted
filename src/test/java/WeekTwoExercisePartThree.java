@@ -32,9 +32,9 @@ public class WeekTwoExercisePartThree {
     // TODO Response: Why would you never refactor if you had a failing test?
 
     @Test
-    @Disabled
+   // @Disabled
     public void sendingAnActualFridayTheThirteenthReturnsTrue() {
-        // TODO: Implement the code to make this test pass
+        // since 09/13/2019 is a Friday, changed isUnluckyDate to return true.
         // TODO: don't forget to commit after passing the test
         boolean actual = isUnluckyDate(2019, 9, 13);
 
@@ -107,6 +107,6 @@ public class WeekTwoExercisePartThree {
     }
 
     public boolean isUnluckyDate(int year, int month, int day) {
-        return false;
+        return true;
     }
 }
