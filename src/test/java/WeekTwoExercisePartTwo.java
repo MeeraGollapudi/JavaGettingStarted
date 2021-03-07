@@ -19,9 +19,9 @@ public class WeekTwoExercisePartTwo {
     // TODO Response: Why would you never refactor if you had a failing test?
 
     @Test
-    @Disabled
+    //@Disabled
     public void sendingOneShouldReturnStringOne(){
-        // TODO Comment: replace this comment with a brief description of why you made the change you did in FizzBuzz.java
+        // In our assertEquals statement, the expected is a Strng object, hence the actual has to be a string object returned by FizzBuzz.execute method.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
         FizzBuzz fb = new FizzBuzz();
@@ -33,9 +33,9 @@ public class WeekTwoExercisePartTwo {
     }
 
     @Test
-    @Disabled
+    //@Disabled
     public void sendingTwoShouldReturnStringTwo(){
-        // TODO Comment: replace this comment with a brief description of why you made the change you did in FizzBuzz.java
+        // In our assertEquals statement, the expected is a Strng object, hence the actual has to be a string object returned by FizzBuzz.execute method.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
 
