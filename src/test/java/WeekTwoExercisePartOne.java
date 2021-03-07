@@ -34,7 +34,7 @@ public class WeekTwoExercisePartOne {
     // TODO Response: Why would you never refactor if you had a failing test?
 
     @Test
-    //@Disabled
+  //  @Disabled
     // This is the first test to validate total of 0 in case of all gutter balls.
     public void whenRollingAllGutterBallsScoreIsZero() {
         rollMany(20, 0);   //for 20 times there is a call to bowlingGame.roll(0);
@@ -70,7 +70,7 @@ public class WeekTwoExercisePartOne {
     }
 
     @Test
-    WeekTwoExercisePartOne first test.@Disabled
+    @Disabled
     public void whenRollingStrikeFrameScoreIsTenPlusNextTwoRolls() {
         bowlingGame.roll(10);
         bowlingGame.roll(7);
