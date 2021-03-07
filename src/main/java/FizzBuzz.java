@@ -7,6 +7,7 @@ public class FizzBuzz {
             case 2:
                 return  String.valueOf(number);
             case 3:
+            case 9:
                 return "Fizz";
             default:
                 return "";
