@@ -82,7 +82,7 @@ public class WeekTwoExercisePartOne {
         assertEquals(26, actual);
     }
 
-    //TODO Response: Why don't we need any more tests than these?
+ // We have done exhaustive testing above - gutter, spare, strike
 
     private void rollMany(int rollCount, int pins) {
         for(int i = 0; i < rollCount; i++) {
