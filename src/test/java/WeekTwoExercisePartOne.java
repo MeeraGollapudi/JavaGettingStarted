@@ -35,7 +35,7 @@ public class WeekTwoExercisePartOne {
 
     @Test
     //@Disabled
-    // TODO Response: Why did we start with this test?
+    // This is the first test to validate total of 0 in case of all gutter balls.
     public void whenRollingAllGutterBallsScoreIsZero() {
         rollMany(20, 0);   //for 20 times there is a call to bowlingGame.roll(0);
 
@@ -45,7 +45,7 @@ public class WeekTwoExercisePartOne {
     }
 
     @Test
-   //@Disabled
+   @Disabled
     // TODO Response:  If the above test works with open frames, why is this test necessary?
     public void whenRollingOpenFrameScoreIsSumOfRolls() {
         rollMany(20, 1);          // //for 20 times there is a call to bowlingGame.roll(1);
@@ -57,7 +57,7 @@ public class WeekTwoExercisePartOne {
 
     // TODO CODE: Start here
     @Test
-    //@Disabled
+    @Disabled
     public void whenRollingSpareFrameScoreIsTenPlusNextRoll() {
         bowlingGame.roll(3);
         bowlingGame.roll(7);
@@ -70,7 +70,7 @@ public class WeekTwoExercisePartOne {
     }
 
     @Test
-    //@Disabled
+    WeekTwoExercisePartOne first test.@Disabled
     public void whenRollingStrikeFrameScoreIsTenPlusNextTwoRolls() {
         bowlingGame.roll(10);
         bowlingGame.roll(7);
