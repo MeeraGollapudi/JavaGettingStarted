@@ -45,8 +45,8 @@ public class WeekTwoExercisePartOne {
     }
 
     @Test
-   @Disabled
-    // TODO Response:  If the above test works with open frames, why is this test necessary?
+   //@Disabled
+    // This test validates total of 20 in case of one pin per roll
     public void whenRollingOpenFrameScoreIsSumOfRolls() {
         rollMany(20, 1);          // //for 20 times there is a call to bowlingGame.roll(1);
 
