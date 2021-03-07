@@ -21,7 +21,7 @@ public class WeekTwoExercisePartTwo {
     @Test
     //@Disabled
     public void sendingOneShouldReturnStringOne(){
-        // In our assertEquals statement, the expected is a Strng object, hence the actual has to be a string object returned by FizzBuzz.execute method.
+        // In our assertEquals statement, the expected is a String object, hence the actual has to be a string object returned by FizzBuzz.execute method.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
         FizzBuzz fb = new FizzBuzz();
@@ -35,7 +35,7 @@ public class WeekTwoExercisePartTwo {
     @Test
     //@Disabled
     public void sendingTwoShouldReturnStringTwo(){
-        // In our assertEquals statement, the expected is a Strng object, hence the actual has to be a string object returned by FizzBuzz.execute method.
+        // In our assertEquals statement, the expected is a String object, hence the actual has to be a string object returned by FizzBuzz.execute method.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
 
@@ -48,9 +48,9 @@ public class WeekTwoExercisePartTwo {
     }
 
     @Test
-    @Disabled
+    //@Disabled
     public void sendingThreeShouldReturnStringFizz() {
-        // TODO Comment: replace this comment with a brief description of why you made the change you did in FizzBuzz.java
+        // In our assertEquals statement, the expected is a String object "Fizz", if the number is 3.
         // TODO: Implement the code to make this test pass
         // TODO: don't forget to commit after passing the test
 
