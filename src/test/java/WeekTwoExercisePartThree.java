@@ -109,19 +109,39 @@ public class WeekTwoExercisePartThree {
     }
 
     @Test
-    @Disabled
+   // @Disabled
     public void sendingTwentyFifteenReturnsThreeFridayTheThirteenths() {
         //  TODO: write this test and, if necessary, make any changes to make it pass
         //  TODO: don't forget to commit after passing the test
+        LocalDate[] actual = unluckyDatesByYear(2015);
+        LocalDate[] expected = new LocalDate[]{
+                LocalDate.of(2015, 2, 13),
+                LocalDate.of(2015, 3, 13),
+                LocalDate.of(2015, 11, 13),
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null};
+
+        assertArrayEquals(expected, actual);
     }
 
     // TODO Implementation Implement your changes to make the tests pass here...
 
     public LocalDate[] unluckyDatesByYear(int year) {
         LocalDate[] localDates = new LocalDate[12];
-            if(year == 2016){
+             if (year == 2015){
+                localDates[0] = LocalDate.of(2015, 2, 13);
+                localDates[1] = LocalDate.of(2015, 3, 13);
+                localDates[2] = LocalDate.of(2015, 11, 13);
+            } else if(year == 2016){
                 localDates[0] = LocalDate.of(2016, 5, 13);
-            } else if (year == 2019){
+            } else if(year == 2019){
                 localDates[0] = LocalDate.of(2019, 9, 13);
                 localDates[1] = LocalDate.of(2019, 12, 13);
             }
